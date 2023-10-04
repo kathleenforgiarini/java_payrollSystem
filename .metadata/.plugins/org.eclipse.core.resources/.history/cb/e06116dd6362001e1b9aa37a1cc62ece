@@ -1,0 +1,18 @@
+package client;
+import java.util.ArrayList;
+import bus.*;
+
+public class PayrollSystemTest {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Employee> listOfEmployees = new ArrayList<Employee>();
+		
+		ArrayList<SalariedEmployee> listOfSalariedEmployee = new ArrayList<SalariedEmployee>();
+		ArrayList<HourlyEmployee> listOfHourlyEmployee = new ArrayList<HourlyEmployee>();
+		ArrayList<SalariedEmployee> listOfSalariedEmployee = new ArrayList<SalariedEmployee>();
+		ArrayList<SalariedEmployee> listOfSalariedEmployee = new ArrayList<SalariedEmployee>();
+
+	}
+
+}

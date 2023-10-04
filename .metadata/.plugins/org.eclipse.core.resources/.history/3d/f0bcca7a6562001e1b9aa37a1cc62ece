@@ -1,0 +1,50 @@
+package client;
+import java.util.ArrayList;
+import bus.*;
+
+public class PayrollSystemTest {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Employee> listOfEmployees = new ArrayList<Employee>();
+		
+		ArrayList<SalariedEmployee> listOfSalariedEmployee = new ArrayList<SalariedEmployee>();
+		ArrayList<HourlyEmployee> listOfHourlyEmployee = new ArrayList<HourlyEmployee>();
+		ArrayList<ComissionEmployee> listOfComissionEmployee = new ArrayList<ComissionEmployee>();
+		ArrayList<BasePlusComissionEmployee> listOfBasePlusComissionEmployee = new ArrayList<BasePlusComissionEmployee>();
+		
+		Employee salariedEmployee1 = new SalariedEmployee("John", "Smith", "123456", 800);
+		listOfEmployees.add(salariedEmployee1);
+		
+		Employee hourlyEmployee1 = new HourlyEmployee("Mike", "Scott", "123456abc", 25, 40);
+		listOfEmployees.add(hourlyEmployee1);
+		
+		Employee comissionEmployee1 = new ComissionEmployee("Steve", "Johnson", "123 abc", 2000, 0.1);
+		listOfEmployees.add(comissionEmployee1);
+		
+		Employee basePlusComissionEmployee1 = new BasePlusComissionEmployee("Steve", "Johnson", "123 abc", 10000, 0.08, 500);
+		listOfEmployees.add(basePlusComissionEmployee1);
+		
+		System.out.println("List of employees");
+		for(Employee item : listOfEmployees) {
+			System.out.println(item.toString());
+		}
+		
+		for (Employee item : listOfEmployees) {
+			if (item instanceof SalariedEmployee) {
+				listOfSalariedEmployee.add((SalariedEmployee)item);
+			}
+			else if (item instanceof HourlyEmployee) {
+				listOfHourlyEmployee.add((HourlyEmployee)item);
+			}
+			else if (item instanceof ComissionEmployee) {
+				listOfComissionEmployee.add((ComissionEmployee)item);
+			}
+			else if (item instanceof BasePlusComissionEmployee) {
+				listOfBasePlusComissionEmployee.add((BasePlusComissionEmployee)item);
+			}
+		}
+		
+	}
+
+}
