@@ -1,0 +1,15 @@
+package bus;
+
+public class BasePlusComissionEmployee extends ComissionEmployee {
+	private double baseSalary;
+
+	public BasePlusComissionEmployee() {
+		super();
+	}
+
+	public BasePlusComissionEmployee(String fn, String ln, String ssn, double gSales, double cRate, double baseSalary) {
+		super();
+		this.baseSalary = baseSalary;
+	}
+	
+}
