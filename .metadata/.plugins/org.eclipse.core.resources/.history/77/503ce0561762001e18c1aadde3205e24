@@ -1,0 +1,8 @@
+package bus;
+
+public class SalariedEmployee extends Employee {
+
+	
+	
+	public abstract double calcPayment();
+}

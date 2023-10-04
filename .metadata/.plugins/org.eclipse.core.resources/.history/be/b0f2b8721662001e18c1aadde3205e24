@@ -1,0 +1,23 @@
+package bus;
+
+public class Employee {
+	private String firstName;
+	private String lastName;
+	private String socialSecurityNumber;
+	
+	public Employee() {
+		super();
+	}
+
+	public Employee(String firstName, String lastName, String socialSecurityNumber) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.socialSecurityNumber = socialSecurityNumber;
+	}
+	
+	
+	
+	
+	
+}

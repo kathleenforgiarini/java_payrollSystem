@@ -1,0 +1,33 @@
+package bus;
+
+public class SalariedEmployee extends Employee {
+
+	private double weeklySalary;
+	
+	
+	
+	
+	public SalariedEmployee() {
+		super();
+		this.weeklySalary = 0.00;
+	}
+	
+	
+
+
+
+
+	public SalariedEmployee(double weeklySalary) {
+		super();
+		this.weeklySalary = weeklySalary;
+	}
+
+
+
+
+
+
+	public double calcPayment() {
+		return 0.00;
+	}
+}

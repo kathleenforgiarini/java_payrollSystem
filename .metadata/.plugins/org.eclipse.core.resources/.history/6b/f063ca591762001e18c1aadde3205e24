@@ -1,0 +1,10 @@
+package bus;
+
+public class SalariedEmployee extends Employee {
+
+	
+	
+	public double calcPayment() {
+		
+	}
+}
