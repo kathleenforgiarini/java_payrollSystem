@@ -1,0 +1,15 @@
+package bus;
+
+public class ComissionEmployee extends Employee{
+
+	private double grossSales;
+	private double comissionRate;
+	
+	
+	
+	@Override
+	public double calcPayment() {
+		return 0;
+	}
+
+}

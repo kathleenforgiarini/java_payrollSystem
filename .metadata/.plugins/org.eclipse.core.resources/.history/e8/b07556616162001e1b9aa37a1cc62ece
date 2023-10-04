@@ -1,0 +1,28 @@
+package bus;
+
+public class ComissionEmployee extends Employee{
+
+	private double grossSales;
+	private double comissionRate;
+	
+	public ComissionEmployee() {
+		super();
+	}
+
+	public ComissionEmployee(String fn, String ln, String ssn, double grossSales, double comissionRate) {
+		super(fn, ln, ssn);
+		this.grossSales = grossSales;
+		this.comissionRate = comissionRate;
+	}
+
+
+
+
+
+
+	@Override
+	public double calcPayment() {
+		return 0;
+	}
+
+}

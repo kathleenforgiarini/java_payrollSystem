@@ -1,0 +1,10 @@
+package bus;
+
+public class ComissionEmployee extends Employee{
+
+	@Override
+	public double calcPayment() {
+		return 0;
+	}
+
+}
