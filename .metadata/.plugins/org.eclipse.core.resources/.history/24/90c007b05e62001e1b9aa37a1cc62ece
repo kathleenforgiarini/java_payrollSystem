@@ -15,20 +15,14 @@ public class SalariedEmployee extends Employee {
 	}
 
 	public double getWeeklySalary() {
-		return this.weeklySalary;
+		return weeklySalary;
 	}
 
 	public void setWeeklySalary(double weeklySalary) {
 		this.weeklySalary = weeklySalary;
 	}
 
-	@Override
-	public String toString() {
-		return "SalariedEmployee [" + super.toString() + " - " + weeklySalary + "]";
-	}
-
-	@Override
 	public double calcPayment() {
-		return this.getWeeklySalary();
+		return 0.00;
 	}
 }

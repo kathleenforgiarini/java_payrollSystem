@@ -27,7 +27,6 @@ public class SalariedEmployee extends Employee {
 		return "SalariedEmployee [" + super.toString() + " - " + weeklySalary + "]";
 	}
 
-	@Override
 	public double calcPayment() {
 		return this.getWeeklySalary();
 	}

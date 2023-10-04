@@ -15,7 +15,7 @@ public class SalariedEmployee extends Employee {
 	}
 
 	public double getWeeklySalary() {
-		return this.weeklySalary;
+		return weeklySalary;
 	}
 
 	public void setWeeklySalary(double weeklySalary) {
@@ -24,11 +24,10 @@ public class SalariedEmployee extends Employee {
 
 	@Override
 	public String toString() {
-		return "SalariedEmployee [" + super.toString() + " - " + weeklySalary + "]";
+		return "SalariedEmployee [" + this.getFirstName() + " " + this.getLastName() + " - " + this.getSocialSecurityNumber() + weeklySalary + "]";
 	}
 
-	@Override
 	public double calcPayment() {
-		return this.getWeeklySalary();
+		return 0.00;
 	}
 }

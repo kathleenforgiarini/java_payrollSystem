@@ -1,0 +1,18 @@
+package bus;
+
+public class HourlyEmployee {
+
+	private double hourlyWage;
+	private double hoursWorked;
+	
+	public HourlyEmployee() {
+		super();
+	}
+	public HourlyEmployee(String fn, String ln, String ssn, double hourlyWage, double hoursWorked) {
+		super(fn, ls, ssn);
+		this.hourlyWage = hourlyWage;
+		this.hoursWorked = hoursWorked;
+	}
+	
+	
+}

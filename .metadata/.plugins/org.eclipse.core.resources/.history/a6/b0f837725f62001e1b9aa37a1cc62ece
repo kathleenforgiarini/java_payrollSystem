@@ -1,0 +1,7 @@
+package bus;
+
+public class HourlyEmployee {
+
+	private double hourlyWage;
+	private double hoursWorked;
+}
