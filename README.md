@@ -15,7 +15,7 @@ To use this project, you can follow these steps:
 3. Run the PayrollSystemTest class to test the functionality of the employee classes and payment calculations.
 
 ## Project Structure
-- bus package contains the employee classes (Employee, SalariedEmployee, HourlyEmployee, ComissionEmployee, BasePlusComissionEmployee).
+- bus package contains the employee classes (Employee, SalariedEmployee, HourlyEmployee, ComissionEmployee, BasePlusComissionEmployee), interface IPayable and Enum for type of employee.
 - client package contains the PayrollSystemTest class to test and demonstrate the employee classes.
 
 ## Employee Classes
